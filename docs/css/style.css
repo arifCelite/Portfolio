@@ -1,0 +1,45 @@
+.auto-style2 {
+	text-align: center;
+	color: #000000;
+}
+.auto-style4 {
+	text-align: right;
+	color: #000000;
+	font-size: medium;	
+}
+.auto-style5 {
+	border-width: 0px;
+}
+.auto-style8 {
+	text-align: left;
+	color: #000000;
+	font-size: medium;
+}
+.auto-style9 {
+	text-align: center;
+	font-size: medium;
+	font-family: "Times New Roman", serif;
+	color: black;
+	margin-left: 0in;
+	margin-right: 0in;
+}
+.left {
+  display: inline-block;
+}
+.right {
+  float: right;
+}
+figcaption{
+	text-align: center;
+}
+h1
+{
+	text-align: center;
+	color: #000000;
+}
+.imageright{
+	z-index: -1;
+	float:right;
+	width: 400;
+	height: 700;
+}

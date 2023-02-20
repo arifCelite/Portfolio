@@ -1,0 +1,63 @@
+<html>
+<head>
+	<!-- Keeping all the styles and CSS in the style.css file , keeps it tidy and centralized-->
+  <link rel="stylesheet"  href="css/style.css"  />
+
+  <body style="background-color: #CCFFFF"></body>
+<!-- Importing the javascript with Brute forcing functions-->
+<script type="text/javascript" src="js/Brute Force.js"></script>
+<a href="Main_page.html">
+  <img alt="" height="145" src="Images/cybex.jpeg" style="float: left" width="114" class="auto-style5" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h1 class="auto-style2"> "Brute Forcing Login Page Password"</h1>
+  </head>
+  <body>
+    <div>
+      <p>"User ID"</p>  
+<!--Enter user ID-->
+      <textarea id="UserID" cols="50" rows="1"></textarea>
+      <br />
+      <p>"Password"</p>  
+      <!--Enter user ID-->
+      <textarea id="Password" cols="50" rows="1" type="password"></textarea>
+      <br />
+      <button onclick="checkCredentials()" id="loginButton">Login</button>
+      <div id="Result"></div>
+      <br />
+      <br />
+<p>_____________________________________________________________________________________________________________________________________________________</p>
+<img alt="social engineering data page" class="imageright" src="Images\data.png"/> 
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!--Enter the userID to be hacked-->
+      <p>Enter the userID to brute force</p>
+      <textarea id="guessID" cols="25" rows="1"></textarea>
+      <!--Enter the first guess password strings to iterate here-->
+      <p>Enter the first guess password string to start brute forcing</p>
+      <textarea id="guessPassword" cols="25" rows="1"></textarea>
+
+      <p>"Guessed Password"</p>  
+      <textarea id="bruteForcedOutput" cols="35" rows="1"></textarea>
+      <br />
+      
+
+      <button onclick="displayStrings(strings)">Brute Force</button>
+      <button onclick="stopBruteForce()">Stop Brute Force</button>
+
+      <br />
+      <br />
+      <br />
+  </body>
+</html>

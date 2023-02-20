@@ -1,0 +1,56 @@
+<html>
+<head>
+	<!-- Keeping all the styles and CSS in the style.css file , keeps it tidy and centralized-->
+  <link rel="stylesheet"  href="css/style.css"  />
+
+  <body style="background-color: #CCFFFF"></body>
+  <!-- Importing the wrapper library Crypto JS to assist in doing the Encryption process -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<!-- Importing the javascript with AES functions-->
+<script type="text/javascript" src="js/AES Encryption.js"></script>
+<a href="Main_page.html">
+  <img alt="" height="145" src="Images/cybex.jpeg" style="float: left" width="114" class="auto-style5" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h1 class="auto-style2"> "AES Encryption and Decryption"</h1>
+  </head>
+  <body>
+    <div>
+      <p>"Write text to Encrypt"</p>  
+<!--Enter the Text to encrypt here-->
+      <textarea id="text" cols="50" rows="4"></textarea>
+      <br />
+
+<!--Enter the Text to encrypt here-->
+      <p>"Input the Secret Password"</p>  
+      <input type="password" id="password" />
+      <br />
+      
+<!--Radio selection button for CBC and ECB-->
+      <input type="radio" name="mode" value="CBC" checked> CBC
+      <input type="radio" name="mode" value="ECB"> ECB
+      <br />
+
+      <button onclick="encryptText()">Encrypt</button>
+      <br />
+      <div>Encrypted:</div>
+      <div id="encrypted"></div>
+      <br />
+      <br />
+<!--Now get the Encrypted text from here to decrypt back to original -->
+      <p>"Write text to Decrypt (Copy from the Encrypted area , leave the password as it is to work)"</p>  
+      <textarea id="crypted"cols="50" rows="4"></textarea>
+      <br />
+      <button onclick="decryptText()">Decrypt</button>
+      <div>Decrypted:</div>
+      <div id="decrypted"></div>
+    </div>
+  </body>
+</html>
