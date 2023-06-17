@@ -1,49 +1,25 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-	<!-- Keeping all the styles and CSS in the style.css file , keeps it tidy and centralized-->
-    <link rel="stylesheet"  href="css/style.css"  />
-
-<title>Cybersecurity</title>
-
-</head>
-
-<body style="background-color: #CCFFFF">
-
-<h1 class="auto-style4">
-<a href="Main_page.html">
-<img alt="" height="145" src="Images/cybex.png" style="float: left" width="114" class="auto-style5" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
-<h1 class="auto-style2">&nbsp;</h1>
-<h1 class="auto-style2">Welcome to Cybex</h1>
-<p class="auto-style9">Cybex has been created to educate and help students and 
-individuals that are interested in learning more information about cyber 
-security. On these web pages, you will have the opportunity to learn about 
-cryptography and brute force password breaking. I have created a series of different web pages with 
-some interactive screens that will make understanding and learning exciting and 
-interesting. At the end of each page, you will have the chance to take a small 
-quiz, with some questions about the topic you have read about. Explore and have 
-fun!!!</p>
-<figure class="left">
-<a href="Cryptography.html">
-	<img alt="Cryptography"
-	class="top"
-	height="250" 
-	src="Images\cryptography.jpeg" 
-	width="250" />
-	<figcaption>Cryptography</figcaption>
-</a>
-</figure>
-<figure class="right">
-<a href="Brute Forcing.html">
-	<img alt="Brute Force Page" 
-	 	 class="average"
-	 	height="250" 
-	 	src="Images\brute force.png" 
-	 	width="250"/>
-	 <figcaption>Brute Force Login </figcaption>
-</a>
-</figure>
-
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Balloon Archer</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Balloon Archer WebGL.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Balloon Archer</div>
+      </div>
+    </div>
+  </body>
 </html>
